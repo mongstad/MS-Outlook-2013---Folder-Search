@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="Tab1" label="FOLDER SEARCH">
+                <group id="Group1">
+                    <editBox id="txtSearch" onChange="txtSearch_TextChanged" screentip="Type name of folder to search for" label="Folder Name:" showImage="false" />
+                    <button id="btnSearch" onAction="btnSearch_Click" screentip="Starts the search for folders containg search word" description="Start search for folders containing search texts and displays the results" label="Start Search" size="large" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
